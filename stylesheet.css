@@ -1,0 +1,123 @@
+/* Style for main container */
+.App {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/much-room2.jpeg);
+    background-position-y: center;
+    background-color: #6b797d;
+   
+  }
+  
+  /* Style for top section */
+  .top {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  input[type="text"] {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  i.fa {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  /* Style for middle section */
+  .middle {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  form {
+    margin: 2rem 0;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #fff;
+  }
+  
+  input[type="text"] {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin: 1rem 0;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for bottom section */
+  .bottom {
+    background-color: #6b797d;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  .co {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  
+  .text {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .de {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    color: #ff4b4b;
+  }
+  

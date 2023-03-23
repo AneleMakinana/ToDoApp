@@ -15,6 +15,9 @@
             <h2 class="title">
                 Hey there!!!, <input type="text" id="name" placeholder="Your name">
             </h2>
+            <div class="clear">
+                <i class="fa fa-refresh"></i>
+            </div>
             <h1>Welcome to your ToDo</h1>
         </section>
         <section class="middle">
@@ -22,8 +25,19 @@
 
             <form id="middle1">
                 <h4>Write your ToDo</h4>
-                <input type="text" name="content" id="middle2">
+                <input type="text" name="content" id="middle2" placeholder="Your activity">
+                <button type="submit" value="add todo">Submit</button>
             </form>
+        </section>
+        <section class="bottom">
+            <div class="bottom1"></div>
+            <ul id="list">
+                <li class="item">
+                    <i class="fa fa-circle-thin co" job="complete" id="0"></i>
+                    <p class="text">Cook</p>
+                    <i class="fa fa-trash-o de" job="delete" id="0"></i>
+                </li>
+            </ul>
         </section>
     </main>
     <script src="index.js"></script>
