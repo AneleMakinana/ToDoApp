@@ -1,5 +1,5 @@
 /* Style for main container */
-.App {
+ .App {
     font-family: Arial, sans-serif;
     font-style: italic;
     margin: 0;
@@ -121,3 +121,78 @@
     color: #ff4b4b;
   }
   
+  
+@media screen and (min-width: 768px) {
+  .App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .clear {
+    display: none;
+  }
+
+  .title {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .middle {
+    flex-basis: calc(50% - 10px);
+    margin-right: 20px;
+  }
+
+  .bottom {
+    flex-basis: calc(50% - 10px);
+    margin-left: 20px;
+  }
+
+  #list {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 368px) {
+  .App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: small;
+  }
+
+  .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .clear {
+    display: none;
+  }
+
+  .title {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .middle {
+    flex-basis: calc(50% - 10px);
+    margin-right: 20px;
+  }
+
+  .bottom {
+    flex-basis: calc(50% - 10px);
+    margin-left: 20px;
+  }
+
+  #list {
+    margin-top: 20px;
+  }
+}
